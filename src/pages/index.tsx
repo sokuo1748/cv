@@ -1,5 +1,3 @@
-"use client";
-
 import { Footer } from "@/components/footers/footer";
 import { Header } from "@/components/headers/header";
 import { useAppContext } from "@/context/app.context";
