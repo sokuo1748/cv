@@ -7,7 +7,7 @@ import { AboutMe } from "@/pages-panels/about-me";
 import { Contact } from "@/pages-panels/contact";
 import { Projects } from "@/pages-panels/projects";
 import { Resume } from "@/pages-panels/resume";
-import styles from "./home-layout.module.scss";
+import styles from "@/styles/home-layout.module.scss";
 
 function MainTab() {
   const { activeTab } = useAppContext();
