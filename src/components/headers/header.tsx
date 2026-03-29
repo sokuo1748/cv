@@ -1,5 +1,3 @@
-"use client";
-
 import { useAppContext, type AppTabId } from "@/context/app.context";
 import styles from "./header.module.scss";
 
