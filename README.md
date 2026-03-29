@@ -27,4 +27,4 @@ Open [http://localhost:3000](http://localhost:3000) to view in browser.
 
 ## Deployment
 
-Deployed on [Vercel](https://cv-flame-six.vercel.app).
+Deployed on [https://sokuo-cv.vercel.app/](https://sokuo-cv.vercel.app/)
