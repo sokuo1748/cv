@@ -1,0 +1,52 @@
+.root {
+  flex-shrink: 0;
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem 2rem;
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid var(--border-subtle, rgb(0 0 0 / 8%));
+  background: var(--surface, #fff);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--foreground, #171717);
+}
+
+.left {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2.5rem;
+  margin-left: auto;
+}
+
+.contactBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+  align-items: center;
+}
+
+.contactLabel {
+  font-weight: 700;
+}
+
+.contactValue {
+  font-weight: 400;
+}
+
+@media (prefers-color-scheme: dark) {
+  .root {
+    border-top-color: rgb(255 255 255 / 12%);
+    background: var(--surface, #000);
+  }
+}
