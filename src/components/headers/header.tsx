@@ -5,14 +5,13 @@ const NAV: { id: AppTabId; label: string }[] = [
   { id: "about-me", label: "ABOUT ME" },
   { id: "resume", label: "RESUME" },
   { id: "projects", label: "PROJECTS" },
-  { id: "contact", label: "CONTACT" },
 ];
 
 export function Header() {
   const { activeTab, handleChangeTab } = useAppContext();
 
   return (
-    <header className={styles.root}>
+    <header className={styles.headerMain}>
       <div className={styles.brand}>
         <span className={styles.icon} aria-hidden />
         <div className={styles.brandText}>
@@ -22,7 +21,7 @@ export function Header() {
             <span className={styles.nameSecondary}>Sokuo</span>
           </span>
           <span className={styles.separator}>/</span>
-          <span className={styles.role}>Front-end engineer</span>
+          <span className={styles.role}>Front-End Engineer</span>
         </div>
       </div>
       <div className={styles.nav} role="navigation" aria-label="主要導覽">
@@ -44,4 +43,3 @@ export function Header() {
     </header>
   );
 }
-

@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  flex: 1;
+  background: linear-gradient(to right, #d4c9bc 40%, #ffffff 40%);
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 500px;
+  margin: 20px 0px;
+  overflow: hidden;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.5);
+  background: transparent;
+}
+
+.leftBox {
+  width: 40%;
+  background: #f5efe8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.rightBox {
+  width: 60%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+}

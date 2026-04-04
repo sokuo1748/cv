@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5efe8;
+  border-radius: 4px;
+  width: 100%;
+  padding: 2rem 2rem 0;
+  gap: 0.75rem;
+  overflow: hidden;
+}
+
+.photoWrapper {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  img {
+    object-fit: cover;
+    object-position: center top;
+  }
+}
+
+.name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  color: #171717;
+  margin-top: 0.5rem;
+}
+
+.divider {
+  display: block;
+  width: 150px;
+  height: 2px;
+  background: #116dff;
+  margin: 0.25rem 0;
+}
+
+.role {
+  font-size: 18px;
+  letter-spacing: 0.12em;
+  color: #555;
+  margin-bottom: 1rem;
+}
+  

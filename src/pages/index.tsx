@@ -1,27 +1,35 @@
 import { Footer } from "@/components/footers/footer";
 import { Header } from "@/components/headers/header";
 import { useAppContext } from "@/context/app.context";
-import { AboutMe } from "@/pages-panels/about-me";
-import { Contact } from "@/pages-panels/contact";
-import { Projects } from "@/pages-panels/projects";
-import { Resume } from "@/pages-panels/resume";
+import { AboutMe } from "@/pages/about-me/about-me";
+import { Projects } from "@/pages/pages-panels/projects";
+import { Resume } from "@/pages/pages-panels/resume";
 import styles from "@/styles/home-layout.module.scss";
 
 function MainTab() {
-  const { activeTab } = useAppContext();
+  const { activeTab, isTransitioning } = useAppContext();
 
-  switch (activeTab) {
-    case "about-me":
-      return <AboutMe/>;
-    case "resume":
-      return <Resume/>;
-    case "projects":
-      return <Projects />;
-    case "contact":
-      return <Contact />;
-    default:
-      return <AboutMe />;
-  }
+  return (
+    <main
+      style={{
+        opacity: isTransitioning ? 0 : 1,
+        transition: "opacity 0.3s ease",
+      }}
+    >
+      {(() => {
+        switch (activeTab) {
+          case "about-me":
+            return <AboutMe />;
+          case "resume":
+            return <Resume />;
+          case "projects":
+            return <Projects />;
+          default:
+            return <AboutMe />;
+        }
+      })()}
+    </main>
+  );
 }
 
 export default function Home() {

@@ -1,6 +1,5 @@
-.root {
+.foolterMain {
   flex-shrink: 0;
-  margin-top: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -28,7 +27,8 @@
   margin-left: auto;
 }
 
-.contactBlock {
+.phoneBlock,
+.emailBlock {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
@@ -36,11 +36,11 @@
   align-items: center;
 }
 
-.contactLabel {
+.header {
   font-weight: 700;
 }
 
-.contactValue {
+.value {
   font-weight: 400;
 }
 
