@@ -12,22 +12,6 @@
   --cta-hover: #383838;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --surface: #000000;
-    --page-bg: #000000;
-    --muted: #a1a1aa;
-    --muted-foreground: #a1a1aa;
-    --heading: #fafafa;
-    --link: #fafafa;
-    --border-subtle: rgb(255 255 255 / 14.5%);
-    --hover-bg: #1a1a1a;
-    --cta-hover: #cccccc;
-  }
-}
-
 html,
 body {
   min-height: 100%;

@@ -121,14 +121,3 @@
     transform: scaleX(1);
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  .root {
-    border-bottom-color: rgb(200, 200, 200);
-    background: var(--surface, #000);
-  }
-
-  .navLink:not(.navLinkActive) {
-    opacity: 0.9;
-  }
-}
