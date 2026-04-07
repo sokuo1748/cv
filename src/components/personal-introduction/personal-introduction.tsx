@@ -1,5 +1,5 @@
 import { useAppContext } from "@/context/app.context";
-import personalData from "./personal.json";
+import personalData from "@/data/personal.json";
 import styles from "./personal-introduction.module.scss";
 
 export function PersonalIntroduction() {
@@ -27,7 +27,9 @@ export function PersonalIntroduction() {
         </button>
       </div>
       {description.map((text, index) => (
-        <p key={index} className={styles.text}>{text}</p>
+        <p key={index} className={styles.text}>
+          {text}
+        </p>
       ))}
     </div>
   );

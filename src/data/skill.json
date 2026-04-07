@@ -1,0 +1,46 @@
+[
+  {
+    "icon": "IconBrandReact",
+    "title": "React.js / Next.js 前端開發",
+    "intro": "熟悉 React 與其開發相關工具鏈：",
+    "description": [
+      "以 React Router 處理前端路由",
+      "以 Context API 管理跨元件狀態",
+      "以 Axios 串接 RESTful API 進行資料互動"
+    ],
+    "tags": ["Next.js", "React", "React Router", "Context API", "Axios"]
+  },
+  {
+    "icon": "IconPalette",
+    "title": "Styling 解決方案",
+    "intro": "以多種作法來處理網頁樣式：",
+    "description": [
+      "依需求挑選合適的 UI 套件加速開發",
+      "UI 框架：MUI、React、Bootstrap，處理元件樣式與主題設定",
+      "使用 SCSS / CSS Modules 進行樣式撰寫"
+    ],
+    "tags": ["SCSS", "CSS Modules", "MUI", "React", "Bootstrap"]
+  },
+  {
+    "icon": "IconBrandParsinta",
+    "title": "E2E 測試（Cypress / Playwright）",
+    "intro": "具備端對端測試撰寫與自動化測試經驗",
+    "description": [
+      "使用 Cypress / Playwright 撰寫 E2E 測試",
+      "模擬使用者操作（登入、表單填寫、流程驗證）",
+      "定時執行腳本測試，協助快速發現頁面或功能問題"
+    ],
+    "tags": ["Cypress", "Playwright", "E2E Testing"]
+  },
+  {
+    "icon": "IconBrandGit",
+    "title": "Git 版本控制",
+    "intro": "具備版本控制與團隊協作開發經驗",
+    "description": [
+      "Git 進行版本控制與程式碼管理",
+      "透過 branch 管理功能開發與版本變更",
+      "GitHub 進行專案協作與程式碼管理"
+    ],
+    "tags": ["Git", "GitHub"]
+  }
+]

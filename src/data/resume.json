@@ -1,0 +1,63 @@
+{
+  "experience": [
+    {
+      "period": "2023/2~仍在職",
+      "position": "軟體工程師",
+      "company": "資旅軟體開發有限公司",
+      "subtitle": "軟體工程師｜高雄市前金區",
+      "iconSrc": "assets/images/company/glsoft.jpg",
+      "intro": "參與數位資產管理系統（DAM）專案，負責前端功能開發與畫面切版，並與後端協作完成 API 串接與功能維護",
+      "description": [
+        "Media Library 功能：實作產品圖片與影片的上傳、預覽與管理介面",
+        "Product 功能：建立圖片分類介面，依據產品類型進行資產整理",
+        "Campaign 功能：設計節日活動排程功能，設定特定時段產品曝光內容",
+        "Video Translation 功能：開發影片字幕編輯器，支援多語系字幕輸入與預覽",
+        "Combine Video 功能：製作圖片與影片合成工具，用於行銷短片製作",
+        "Template 功能：使用 Konva 製作背景圖編輯器，支援元件拖曳與排版設計",
+        "Cypress / Playwright 功能：模擬使用者操作進行端對端測試，協助排查功能錯誤並確保流程穩定"
+      ],
+      "tags": [
+        "React / Next.js",
+        "ReactJS",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Konva"
+      ]
+    },
+    {
+      "period": "2021/6~2022/5",
+      "duration": "1年",
+      "position": "前端實習生",
+      "company": "財團法人中華民國佛教慈濟慈善事業基金會",
+      "subtitle": "Internet程式設計師｜花蓮縣花蓮市",
+      "iconSrc": "assets/images/company/tzuchi-logo.gif",
+      "description": [
+        "獨立設計和開發新頁面功能",
+        "修正現有功能bug與維護程式設定完整性",
+        "負責前端Angular框架撰寫與後端SpringBoot資料功能維護與更新",
+        "依照客戶需求進行設計與分析"
+      ],
+      "tags": ["Angular", "JavaScript", "HTML", "CSS"]
+    }
+  ],
+  "education": [
+    {
+      "period": "2035 - 2035",
+      "school": "UNIVERSITY NAME",
+      "degree": "Degree Level",
+      "location": "University Location",
+      "description": [
+        "I'm a paragraph. Click here to add your own text and edit me.",
+        "I'm a great place for you to tell a story and let your users know a little more about you."
+      ]
+    }
+  ],
+  "skills": [
+    "Entrepreneurial Mindset",
+    "Go-to-Market Planning",
+    "Teamwork & Collaboration",
+    "Digital Analytics"
+  ],
+  "languages": ["English (native)", "French (proficient)"]
+}

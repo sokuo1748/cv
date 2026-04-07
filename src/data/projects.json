@@ -1,0 +1,9 @@
+[
+  {
+    "title": "個人履歷網站",
+    "role": "個人專案",
+    "description": "使用 Next.js 建立個人履歷網站，包含自我介紹、履歷、經歷、專業技能、作品等，並部署至 GitHub Pages",
+    "image": "assets/images/product/product-cv.png",
+    "link": "https://sokuo1748.github.io/cv"
+  }
+]
