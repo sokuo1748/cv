@@ -1,9 +1,9 @@
 import { Footer } from "@/components/footers/footer";
 import { Header } from "@/components/headers/header";
 import { useAppContext } from "@/context/app.context";
-import { AboutMe } from "@/pages/about-me/about-me";
-import { Projects } from "@/pages/pages-panels/projects";
-import { Resume } from "@/pages/pages-panels/resume";
+import AboutMe  from "@/pages/about-me/about-me";
+import Projects from "@/pages/pages-panels/projects";
+import Resume from "@/pages/pages-panels/resume";
 import styles from "@/styles/home-layout.module.scss";
 
 function MainTab() {
