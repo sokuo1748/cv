@@ -1,21 +1,18 @@
 import styles from "./footer.module.scss";
 
-const COPYRIGHT = "本線上履歷由 陳暐龍 本人製作";
-const PHONE = "123-456-7890";
-const EMAIL = "info@mysite.com";
 
 export function Footer() {
   return (
-    <footer className={styles.root}>
-      <p className={styles.left}>{COPYRIGHT}</p>
+    <footer className={styles.foolterMain}>
+      <p className={styles.left}>本線上履歷由 陳暐龍 本人製作</p>
       <div className={styles.right}>
-        <div className={styles.contactBlock}>
-          <span className={styles.contactLabel}>phone</span>
-          <span className={styles.contactValue}>{PHONE}</span>
+        <div className={styles.phoneBlock}>
+          <span className={styles.header}>phone</span>
+          <span className={styles.contactValue}>0905-232-087</span>
         </div>
-        <div className={styles.contactBlock}>
-          <span className={styles.contactLabel}>email</span>
-          <span className={styles.contactValue}>{EMAIL}</span>
+        <div className={styles.emailBlock}>
+          <span className={styles.header}>email</span>
+          <span className={styles.value}>sokuo1748@gmail.com</span>
         </div>
       </div>
     </footer>

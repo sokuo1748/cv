@@ -18,6 +18,7 @@ export type AppTabId = (typeof APP_TAB_IDS)[number];
 
 type AppContextValue = {
   activeTab: AppTabId;
+  isTransitioning: boolean;
   handleChangeTab: (tab: AppTabId) => void;
 };
 
@@ -25,14 +26,19 @@ const AppContext = createContext<AppContextValue | null>(null);
 
 export function AppContextProvider({ children }: { children: ReactNode }) {
   const [activeTab, setActiveTab] = useState<AppTabId>("about-me");
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
   const handleChangeTab = useCallback((tab: AppTabId) => {
-    setActiveTab(tab);
+    setIsTransitioning(true);
+    setTimeout(() => {
+      setActiveTab(tab);
+      setIsTransitioning(false);
+    },500); 
   }, []);
 
   const value = useMemo(
-    () => ({ activeTab, handleChangeTab }),
-    [activeTab, handleChangeTab],
+    () => ({ activeTab, isTransitioning, handleChangeTab }),
+    [activeTab, isTransitioning, handleChangeTab],
   );
 
   return (
