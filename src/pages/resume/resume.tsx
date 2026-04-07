@@ -4,7 +4,7 @@ import { SkillCard } from "@/components/skill-card/skill-card";
 import resumeData from "@/data/resume.json";
 import styles from "./resume.module.scss";
 
-export function Resume() {
+export default function Resume() {
   const { experience } = resumeData;
 
   return (

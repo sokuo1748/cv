@@ -3,7 +3,7 @@ import { Header } from "@/components/headers/header";
 import { useAppContext } from "@/context/app.context";
 import AboutMe from "@/pages/about-me/about-me";
 import Projects from "@/pages/projects/projects";
-import { Resume } from "@/pages/resume/resume";
+import Resume from "@/pages/resume/resume";
 
 import styles from "@/styles/home-layout.module.scss";
 
