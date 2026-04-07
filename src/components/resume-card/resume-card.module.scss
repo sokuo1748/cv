@@ -1,0 +1,94 @@
+.card {
+  display: flex;
+  background: #fff;
+  border-radius: 4px;
+  padding: 2rem 2.5rem;
+  gap: 50px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  align-items: flex-start;
+}
+
+// 左側 icon 欄
+.iconCol {
+  width: 40px;
+  flex-shrink: 0;
+  padding-top: 0.2rem;
+}
+
+.icon {
+  object-fit: contain;
+}
+
+// 中間主體
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.company {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.subtitle {
+  font-size: 0.875rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.descList {
+  margin: 0.75rem 0 0.5rem 0;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.descItem {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+}
+
+.tag {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+// 右側時間欄
+.periodCol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-shrink: 0;
+  gap: 0.15rem;
+  padding-top: 0.1rem;
+}
+
+.period {
+  font-size: 0.875rem;
+  color: #555;
+  white-space: nowrap;
+}
+
+.duration {
+  font-size: 0.875rem;
+  color: #555;
+  text-align: right;
+}

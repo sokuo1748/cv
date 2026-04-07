@@ -7,7 +7,6 @@ export default function AboutMe() {
     <div className={styles.main}>
       <div className={styles.wrapper}>
         <div className={styles.card}>
-          <div></div>
           <div className={styles.leftBox}>
             <PersonalPhoto />
           </div>

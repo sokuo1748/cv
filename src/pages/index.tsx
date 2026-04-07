@@ -1,9 +1,10 @@
 import { Footer } from "@/components/footers/footer";
 import { Header } from "@/components/headers/header";
 import { useAppContext } from "@/context/app.context";
-import AboutMe  from "@/pages/about-me/about-me";
-import Projects from "@/pages/pages-panels/projects";
-import Resume from "@/pages/pages-panels/resume";
+import AboutMe from "@/pages/about-me/about-me";
+import Projects from "@/pages/projects/projects";
+import { Resume } from "@/pages/resume/resume";
+
 import styles from "@/styles/home-layout.module.scss";
 
 function MainTab() {
@@ -11,10 +12,10 @@ function MainTab() {
 
   return (
     <main
-    className={styles.mainTab}
+      className={styles.mainTab}
       style={{
         opacity: isTransitioning ? 0 : 1,
-        transition: "opacity 0.3s ease",
+        transition: "opacity 0.5s ease",
       }}
     >
       {(() => {

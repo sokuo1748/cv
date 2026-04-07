@@ -1,10 +1,11 @@
 import styles from "./footer.module.scss";
 
-
 export function Footer() {
   return (
     <footer className={styles.foolterMain}>
-      <p className={styles.left}>本線上履歷由 陳暐龍 本人製作</p>
+      <p className={styles.left}>
+        本線上履歷由 陳暐龍 本人製作，採用 Next.js 16.2.1 框架
+      </p>
       <div className={styles.right}>
         <div className={styles.phoneBlock}>
           <span className={styles.header}>phone</span>
