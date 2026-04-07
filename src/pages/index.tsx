@@ -11,6 +11,7 @@ function MainTab() {
 
   return (
     <main
+    className={styles.mainTab}
       style={{
         opacity: isTransitioning ? 0 : 1,
         transition: "opacity 0.3s ease",
