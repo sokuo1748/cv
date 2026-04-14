@@ -4,7 +4,7 @@
   background: linear-gradient(to right, #d4c9bc 40%, #ffffff 40%);
 
   @media (max-width: 768px) {
-    background: #d4c9bc; 
+    background: #d4c9bc;
     overflow-y: auto;
   }
 }
@@ -39,11 +39,11 @@
   @media (max-width: 768px) {
     flex-direction: column;
     width: 100%;
-    height: auto; 
-    min-height: unset; 
+    height: auto;
+    min-height: unset;
     margin: 0;
     border-radius: 0.75rem;
-    overflow: visible; 
+    overflow: visible;
   }
 }
 
