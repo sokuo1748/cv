@@ -45,6 +45,12 @@ export function ResumeCard({
         {company && <strong className={styles.company}>{company}</strong>}
         {subtitle && <span className={styles.subtitle}>{subtitle}</span>}
 
+        {/* 手機版時間區塊 */}
+        <div className={styles.periodColMobile}>
+          <span className={styles.period}>{period}</span>
+          {duration && <span className={styles.duration}>{duration}</span>}
+        </div>
+
         {intro && <p className={styles.intro}>{intro}</p>}
 
         <ul className={styles.descList}>
@@ -66,7 +72,7 @@ export function ResumeCard({
         )}
       </div>
 
-      {/* 右側時間 */}
+      {/* 右側時間（桌面版） */}
       <div className={styles.periodCol}>
         <span className={styles.period}>{period}</span>
         {duration && <span className={styles.duration}>{duration}</span>}

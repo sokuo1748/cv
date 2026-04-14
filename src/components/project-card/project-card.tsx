@@ -27,7 +27,7 @@ export function ProjectCard({
           </div>
         </div>
         <p className={styles.description}>{description}</p>
-        {link && (
+        {/* {link && (
           <a
             href={link}
             target="_blank"
@@ -36,7 +36,7 @@ export function ProjectCard({
           >
             查看專案 →
           </a>
-        )}
+        )} */}
       </div>
       <div className={styles.imageWrapper}>
         <Image

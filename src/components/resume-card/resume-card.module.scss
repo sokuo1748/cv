@@ -92,3 +92,38 @@
   color: #555;
   text-align: right;
 }
+
+.periodColMobile {
+  display: none;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem 1.25rem;
+  }
+
+  .iconCol {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .periodCol {
+    display: none;
+  }
+
+  .periodColMobile {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .period,
+  .duration {
+    text-align: left;
+  }
+}
