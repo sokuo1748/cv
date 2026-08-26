@@ -1,5 +1,12 @@
 [
   {
+    "title": "Konva Canvas",
+    "role": "konva",
+    "description": "使用 React 與 Konva.js 打造的線上繪圖工具，支援自由畫筆、橡皮擦、圖片上傳與文字編輯，物件皆可拖曳、縮放、旋轉。",
+    "image": "assets/images/product/konva-canva-demo.gif",
+    "link": "https://sokuo1748.github.io/canva-konva/"
+  },
+  {
     "title": "個人履歷網站",
     "role": "個人專案",
     "description": "使用 Next.js 建立個人履歷網站，包含自我介紹、履歷、經歷、專業技能、作品等，並部署至 GitHub Pages",
