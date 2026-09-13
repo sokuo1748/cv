@@ -27,16 +27,16 @@ export function ProjectCard({
           </div>
         </div>
         <p className={styles.description}>{description}</p>
-        {/* {link && (
+        {link && (
           <a
             href={link}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.link}
           >
-            查看專案 →
+            前往查看 &gt;&gt;
           </a>
-        )} */}
+        )}
       </div>
       <div className={styles.imageWrapper}>
         <Image
